@@ -1,0 +1,489 @@
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.a-footer{
+    color: #434343 !important;
+    text-decoration: none !important;
+    font-weight: 200  !important;
+}
+
+.carousel-blue{
+	background: #32374e;
+    font-family: montserrat;
+    font-weight: 800;
+    top: 20%;
+    left: 0%;
+    right: 50%;
+    bottom: 58%;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 200px;
+}
+
+a:active, a:visited, a:hover {
+	font-weight: 700;
+}
+
+.active {
+	font-weight: 700;
+}
+
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.contacto{
+	padding-top: 10px; padding-bottom: : 500px;  padding-left: 100px; padding-right: 100px; text-align: center; 
+}
+
+.politicas-icon{
+	margin-right: 15px; width: 35px;
+}
+
+.white-logo{
+    width: 100%;
+    background: white;
+    height: 49px;
+    position: fixed;
+    z-index: 100;
+}
+
+.white-logo img{
+		width: 20%; 
+		margin-left: 20px;
+	}
+
+.nav-blue{
+	color: white;
+    font-size: 12px;
+    background: #32374e;
+    width: 50%;
+    margin-left: 50%;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+.nav-blue a {
+    color: #ffffff !important;
+}
+
+.pink-label{
+	background: #d389b6;
+    text-align: right;
+    margin-top: 100px;
+    padding-right: 50px;
+    margin-left: -120%;
+    height: 60px;
+}
+
+
+
+.img-pipa{    
+	text-align: center;
+    background: url(../img/pipa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin-bottom: 100px;
+    margin-right: -15px;
+
+}
+.img-pipa2{    
+	text-align: center;
+    background: url(../img/pink-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin-bottom: 100px;
+
+}
+
+.valores-label{
+	background: transparent;
+    text-align: right;
+    margin-top: 100px;
+    padding-right: 50px;
+    margin-left: -120%;
+    height: 60px;
+}
+
+.valores-label h2{
+    margin: 20px;
+    margin-top: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.clientes-label h2{
+    margin: 20px;
+    margin-top: 100px;
+    font-weight: 800;
+    color: #000000;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+   
+
+.pink-label h2{
+    margin: 20px;
+    margin-top: 20px;
+    font-weight: 800;
+    color: #2f2f2f;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.text-label div{
+    margin-top: 20px;
+font-size: 14px;
+    font-weight: 100;
+}
+
+
+.text-label-low {
+    margin-top: 20px;
+font-size: 12px;
+    font-weight: 100;
+}
+
+.text-label b{
+    
+    font-weight: 700;
+}
+
+
+
+.container-nosotros {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.container-valores {
+    background:  #32374e;
+    color: white;
+}
+
+.container-footer {
+    background: #c4c4c8 ;
+    color: #434343;
+}
+
+.container-valores2 {
+    color: white;
+}
+
+.container-valores-0 {
+    /*margin-top: -16px;*/
+    margin-bottom: -100px;
+}
+
+.img-pink{
+	background: url(../img/servicios-img.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	height: 300px;margin-bottom: 100px;
+}
+
+.img-truck{
+	background: url(../img/contact-bg.png);
+	background-repeat:no-repeat;
+
+background-position:center;
+
+}
+
+
+.filosofia-label {
+    text-align: center;
+    margin-top: 100px;
+    height: 17px;
+}
+
+
+.politicas-box{
+	    background: white;
+    color: black;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+.container-2 {
+    /* width: 60%; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+#map_container{
+  position: relative;
+}
+#map{    
+	height: 0;
+    overflow: hidden;
+    padding-bottom: 22.25%;
+    padding-top: 30px;
+    position: relative;
+    height: 500px;
+    /*width: 107.5%;*/
+    margin-left: -33px;
+
+     margin-right: -30px;
+}
+
+/* Contact form*/
+
+
+label {
+
+    color: white;
+    font-weight: lighter;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/*
+input[type=text]{
+    height: 20px;
+    width: 77%;
+
+    max-width: 77%;
+    position: absolute;
+    margin: 3px;
+
+     font-size: 12px;
+}*/
+
+input[type=submit] {
+    border-radius: 6px;
+    width: 110px;
+    background: #d488b7;
+    color: #444242;
+    font-size: 21px;
+    border: 0;
+    font-weight: 700;
+    height: 31px;
+    text-transform: uppercase;
+}
+
+textarea {
+    height: 100px;
+    width: 100%;
+    position: initial;
+    font-size: 12px;
+}
+
+/* Slider */
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.img-responsive-div {
+    padding-bottom: 30px;
+    display: none;
+}
+
+.text-salto-div {
+    margin-top: 0px !important;
+}
+
+@media (min-width: 100px) { 
+	.text-label{
+	    padding-bottom: 100px;
+	    padding-left: 50px;
+	}
+
+	.img-pink{
+		height: 690px;margin-bottom: 0px;width: 100%;
+	}
+	/*.d-md-block {
+	    display: block!important;
+	}*/
+}
+    
+@media (min-width: 768px) {
+
+
+	.img-pink{
+		height: 390px;margin-bottom: 100px;
+	}
+	
+ }
+@media (max-width: 765px) {
+
+	.hide-pipa{
+		display: none;
+	}
+	.img-pink{
+		background: #32384d;
+	}
+
+	.img-responsive-div {
+	    padding-bottom: 30px;
+	    display: block;
+	    margin-top: -50px;
+	}
+
+ }
+
+@media (min-width: 992px) {
+	.carousel-blue h5{
+		    font-size: 1.25rem;
+	}
+
+	
+}
+
+@media (min-width: 1200px) {
+	.carousel-blue h5{
+		    font-size: 2.05rem;
+	}
+
+	.white-logo img{
+		width: 12%; 
+		margin-left: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
